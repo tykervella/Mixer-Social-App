@@ -71,6 +71,18 @@ User.find({})
           username: 'user3',
           email: 'user3@example.com',
         },
+        {
+          username: 'user4',
+          email: 'user4@example.com',
+        },
+        {
+          username: 'user5',
+          email: 'user5@example.com',
+        },
+        {
+          username: 'user6',
+          email: 'user6@example.com',
+        },
       ];
       
       const results = await User.insertMany(usersData);
